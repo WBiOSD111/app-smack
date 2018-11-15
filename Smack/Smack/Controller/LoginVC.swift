@@ -21,7 +21,7 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func creatAccntBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: "toCreateAccount", sender: nil
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil
         )
     }
     
