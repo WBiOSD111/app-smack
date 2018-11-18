@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A06E44021A1E4B8006BB58F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06E43F21A1E4B8006BB58F /* Message.swift */; };
 		1A06E44221A1ED03006BB58F /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06E44121A1ED03006BB58F /* KeyboardBoundView.swift */; };
+		1A06E44421A201D3006BB58F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06E44321A201D3006BB58F /* MessageCell.swift */; };
 		1A1303112199D2CF00CBCD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1303102199D2CF00CBCD44 /* AppDelegate.swift */; };
 		1A1303162199D2CF00CBCD44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1303142199D2CF00CBCD44 /* Main.storyboard */; };
 		1A1303182199D2D000CBCD44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1303172199D2D000CBCD44 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		1A06E43F21A1E4B8006BB58F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1A06E44121A1ED03006BB58F /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		1A06E44321A201D3006BB58F /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		1A13030D2199D2CF00CBCD44 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1303102199D2CF00CBCD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A1303152199D2CF00CBCD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				1AC4947C21A064B7003E823B /* CircleImage.swift */,
 				1AC4948721A09C9F003E823B /* ChannelCell.swift */,
 				1A06E44121A1ED03006BB58F /* KeyboardBoundView.swift */,
+				1A06E44321A201D3006BB58F /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				1AC4948821A09C9F003E823B /* ChannelCell.swift in Sources */,
 				1A89AA812199DA9C00D67A4B /* ChannelVC.swift in Sources */,
 				1AB471C0219E452300E3897E /* AvatarPickerVC.swift in Sources */,
+				1A06E44421A201D3006BB58F /* MessageCell.swift in Sources */,
 				1AB471BC219E27DA00E3897E /* RoundedButton.swift in Sources */,
 				1A06E44021A1E4B8006BB58F /* Message.swift in Sources */,
 				1AC4948621A096C2003E823B /* Channel.swift in Sources */,
